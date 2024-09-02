@@ -1,0 +1,15 @@
+#How to take input from user? Let's do it.
+
+a=input("What is your name? ")
+print("My name is", a) 
+
+#input() function returns string datatype
+#You have to typecast it in order to use it as another datatype
+
+x=input("Enter the first number: ")
+y=input("Enter the Second number: ")
+print(x + y, " This answer is wrong!!!")  #This won't add the two numbers. Instead it'll concatenate the two numbers
+
+x=int(input("Enter the first number: "))
+y=int(input("Enter the Second number: "))
+print(x + y) #It will add the two numbers
