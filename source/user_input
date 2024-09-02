@@ -13,3 +13,7 @@ print(x + y, " This answer is wrong!!!")  #This won't add the two numbers. Inste
 x=int(input("Enter the first number: "))
 y=int(input("Enter the Second number: "))
 print(x + y) #It will add the two numbers
+          
+            #OR
+
+print("Second method", int(x) + int(y))
