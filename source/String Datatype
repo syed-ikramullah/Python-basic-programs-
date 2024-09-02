@@ -1,0 +1,33 @@
+#Anything written in double/single quotes is a string.
+#Strings can be both single line and multi lines.
+
+#Single-line strings.
+name = "Syed Ikramullah"
+name2 = 'Syed Ikramullah'
+
+print("Single-line strings are as under:\n\n",name, "---Using double quotes")
+print(name2, "---Using single quotes")
+
+#Multi-line strings.
+intro = """It's Syed Ikramullah 
+I am from Quetta, Pakistan.
+I am a student of Computer Science.
+"""
+
+print("\n\nMulti-line string:\n",intro)
+#Multiline strings can also be used by using three single quotes
+
+#Finding length of a string
+print("Length of string: ",len(name))
+print("\nLength of string: ",len(intro))
+
+# Accessing specified indices of a string
+print("\n\nAccessing specified indices of a string\n")
+print(name[0:3]) #This will pic characters from index number 0 to index number 3-1 (means one index less than the number specified)
+print(name[6:14])
+print(intro[24:78])
+print(name2[:]) #Python will automatically assign 0 and length of the string to both sides.
+
+#Negative indexing
+print("Negative indexing:\n", name[-10:-7])
+#This is actually name[len(name) - 10: len(name) - 7]
