@@ -1,1 +1,57 @@
+name = "syEd IKraMullah!"
+para = """I am from Quetta, pakistan.
+I want to be a programmer.
+The problem is inconsistency."""
+insti = "UNIversity oF Central punjab"
+spcs = "     "
 
+# Capitalizes the first letter of the string
+print("Capitalizes the first letter of the string\n", name.capitalize())
+
+# Will Capitalizes the first letter of each word
+print("Will Capitalizes the first letter of each word\n", name.title())
+
+# Changes the string to uppercase
+print("Changes the string to uppercase\n", name.upper())
+
+# Changes the string to lowercase
+print("Changes the string to lowercase\n", name.lower())
+
+# Checks Whether the characters of the string are in uppercase or not. If they are, it returns True, else it returns False.
+print("Checks Whether the characters of the string are in uppercase or not. If they are, it returns True, else it returns False.\n", name.isupper())
+
+# Checks Whether the characters of the string are in lowercase or not. If they are, it returns True, else it returns False.
+print("Checks Whether the characters of the string are in lowercase or not. If they are, it returns True, else it returns False.\n", name.islower())
+
+# Changes the case of the string from both upper to lower and lower to upper
+print("Changes the case of the string from both upper to lower and lower to upper\n", name.swapcase())
+
+# Removes white spaces before and after the string
+print("Removes white spaces before and after the string\n", name.strip())
+
+# Removes trailing characters from the string
+print("Removes trailing characters from the string\n", name.rstrip("!"))
+
+# Replaces the selected part with the user given part
+print("Replaces the selected part with the user given part\n", para.replace("Quetta", "Qta"))
+
+# Counts the number of times something is repeated
+print("Counts the number of times something is repeated\n", para.count("am"))
+
+# Checks if the string consists of white spaces only or not. If yes, it will return True. Otherwise, false.
+print("Checks if the string consists of white spaces only or not. If yes, it will return True. Otherwise, false.\n", spcs.isspace())
+
+# Checks if the string consists of printable characters only or not. If yes, it will return True. Otherwise, false
+print("Checks if the string consists of printable characters only or not. If yes, it will return True. Otherwise, false\n", name.isprintable())
+
+# Checks if the string consists of alpha-numeric characters. If any other characters or punctuations or numbers(0-9) are present, then it returns False.
+print("Checks if the string consists of alpha-numeric characters.\n", para.isalnum())
+
+# Checks if the string consists of alphabetic characters. If any other characters or punctuations are present, then it returns False.
+print("Checks if the string consists of alphabetic characters.\n", para.isalpha())
+
+# Find something in the string and return its index. If given value is absent from the string then return -1.
+print("Find something in the string\n", para.find("to"))
+
+# Find something in the string and return its index. If given value is absent from the string then raise an exception.
+print("Find something in the string [by index()]\n", para.index("to"))
