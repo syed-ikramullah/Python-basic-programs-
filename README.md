@@ -9,5 +9,3 @@ It will assist beginners in learning Python and programmers who teach python thr
 
 ## Lcense
 Everyone can use any code in this repository as this is to assist beginners with limited programming skills.
-
-## Syed Ikramullah
